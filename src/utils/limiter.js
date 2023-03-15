@@ -27,7 +27,6 @@ export const getRateLimitMiddlewares = ({
 const middlewares = getRateLimitMiddlewares()
 
 async function applyRateLimit(request, response) {
-  console.log(request)
   await Promise.all(
     middlewares
       .map(applyMiddleware)
