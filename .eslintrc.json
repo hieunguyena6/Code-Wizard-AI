@@ -1,0 +1,93 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "babelrc": false,
+      "configFile": false,
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "phantomjs": true,
+    "es6": true
+  },
+  "globals": {
+    "chrome": "readonly"
+  },
+  "rules": {
+    "camelcase": "off",
+    "import/no-unresolved": "off",
+    "template-curly-spacing": "off",
+    "indent": "off",
+    "import/prefer-default-export": 1,
+    "operator-linebreak": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.story.jsx",
+          "**/*.spec.jsx",
+          "**/*.spec.js",
+          "**/tests/*.*",
+          "**/tests/**/*.*",
+          "**/tasks/**/*.js",
+          "**/config/**/*.js",
+          "gulpfile.js"
+        ]
+      }
+    ],
+    "arrow-body-style": "off",
+    "class-methods-use-this": 1,
+    "no-restricted-syntax": 1,
+    "no-use-before-define": 0,
+    "no-param-reassign": 1,
+    "no-console": 2,
+    "no-useless-escape": 1,
+    "new-cap": 0,
+    "func-names": 0,
+    "function-paren-newline": "off",
+    "prefer-spread": 1,
+    "space-before-function-paren": 0,
+    "comma-dangle": [0, "never"],
+    "strict": 0,
+    "max-len": 0,
+    "quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "consistent": true
+      }
+    ],
+    "react/prop-types": 1,
+    "react/forbid-prop-types": 1,
+    "react/style-prop-object": 1,
+    "react/jsx-boolean-value": [1, "always"],
+    "react/no-multi-comp": 1,
+    "react/jsx-no-bind": 1,
+    "react/jsx-space-before-closing": 0,
+    "react/prefer-stateless-function": 0,
+    "react/jsx-closing-bracket-location": 1,
+    "jsx-a11y/no-static-element-interactions": 1,
+    "jsx-a11y/href-no-hash": 0,
+    "react/destructuring-assignment": 0,
+    "react/jsx-wrap-multilines": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }    
+    }
+  }
+}

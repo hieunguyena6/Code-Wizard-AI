@@ -1,0 +1,17 @@
+.content-container {
+  padding: 24px 48px;
+}
+
+.site-layout-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: calc(100vh - 64px - 48px);
+  padding: 24px;
+}
+
+.page-content {
+  width: 100%;
+  text-align: center;
+}
