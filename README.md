@@ -9,13 +9,14 @@ Code Wizard AI is a tool that leverages the power of machine learning to assist 
 ## Demo
 
 <img src="https://github.com/hieunguyena6/Code-Wizard-AI/blob/master/public/demo.png" width="600" />
-<a href="https://codewizard.vercel.app" target="_blank">Demo</a>
+<a href="wizard-ai.vercel.app" target="_blank">Demo</a>
 
 ## Features
 
  * [x] SQL Query to Nature Language
  * [x] Nature Language to SQL Query
  * [x] JS Code Explain
+ * [ ] Explain any Programing Language Code
  * [ ] SQL Query to Nature Language with schema
  * [ ] Code Optimization
  * [ ] Code Conversion 
