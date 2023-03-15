@@ -9,7 +9,7 @@ Code Wizard AI is a tool that leverages the power of machine learning to assist 
 ## Demo
 
 <img src="https://github.com/hieunguyena6/Code-Wizard-AI/blob/master/public/demo.png" width="600" />
-<a href="wizard-ai.vercel.app" target="_blank">Demo</a>
+<a href="https://wizard-ai.vercel.app" target="_blank">Demo</a>
 
 ## Features
 
