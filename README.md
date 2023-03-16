@@ -20,6 +20,7 @@ Code Wizard AI is a tool that leverages the power of machine learning to assist 
  * [ ] SQL Query to Nature Language with schema
  * [ ] Code Optimization
  * [ ] Code Conversion 
+ * [ ] Generate Unit test
  * [ ] Use Custom API Key
  * [ ] Dark mode
 
